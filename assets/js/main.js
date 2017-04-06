@@ -90,6 +90,15 @@
 
 			}
 
-	});
+
+        // venobox
+        $('.venobox').venobox({
+            spinColor: '#546E7A',
+            spinner: 'cube-grid',
+            infinigall: true,
+            numeratio: true
+		});
+
+    });
 
 })(jQuery);

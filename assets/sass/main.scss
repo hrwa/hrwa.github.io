@@ -1825,3 +1825,19 @@ body.is-mobile {
     }
   }
 }
+
+.guide-section p {
+  min-height: 300px;
+}
+
+.guide-img {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  overflow: hidden;
+
+  img {
+    vertical-align: middle;
+  }
+}
